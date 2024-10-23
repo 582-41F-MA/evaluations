@@ -30,9 +30,12 @@ soumettez est évalué selon les critères de qualité ci-dessous.
 
 -   Gestion de version
 
-    -   les messages sont conformes au format conventionnel
+    -   les messages sont conformes au [format conventionnel][tpope]
     -   l'historique est propre
     -   les instantanés inclus seulement des changements connexes
+
+[tpope]:
+https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 
 ## Remise
 
