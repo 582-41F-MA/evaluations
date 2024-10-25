@@ -1,7 +1,7 @@
 # Projet 1 : Wordle
 
 > Pondération : 20% \
-> Remise : 5 novembre
+> Remise : 31 octobre
 
 [Wordle][] est un jeu où le but est de deviner un mot spécifique de cinq
 lettres en un maximum de six tentatives. Après chaque essai, les lettres
