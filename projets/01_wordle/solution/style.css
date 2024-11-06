@@ -1,0 +1,76 @@
+@import url("reset.css");
+
+body {
+    font-family: system-ui;
+}
+
+main {
+    margin: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 2rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+fieldset {
+    display: flex;
+    gap: 5px;
+}
+
+input {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid gainsboro;
+    border-radius: 2px;
+    width: 4rem;
+    height: 4rem;
+    padding: 0;
+    margin: 0;
+}
+
+input.current {
+    border-color: royalblue;
+}
+
+input.correct {
+    background: seagreen;
+    border-color: seagreen;
+    color: white;
+}
+
+input:disabled {
+    -webkit-text-fill-color: white;
+    color: white;
+}
+
+input.present {
+    background: darkgoldenrod;
+    border-color: darkgoldenrod;
+}
+
+input.absent {
+    background: darkgray;
+    border-color: darkgray;
+}
+
+button {
+    font-size: 1.25rem;
+    background: royalblue;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+}
