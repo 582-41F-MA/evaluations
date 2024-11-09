@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Apples",
+        "quantity": 4,
+        "bought": false
+    },
+    {
+        "name": "Bananas",
+        "quantity": 6,
+        "bought": true
+    },
+    {
+        "name": "Milk",
+        "quantity": 1,
+        "bought": false
+    },
+    {
+        "name": "Bread",
+        "quantity": 2,
+        "bought": true
+    },
+    {
+        "name": "Eggs",
+        "quantity": 12,
+        "bought": false
+    },
+    {
+        "name": "Chicken",
+        "quantity": 1,
+        "bought": true
+    },
+    {
+        "name": "Rice",
+        "quantity": 2,
+        "bought": false
+    },
+    {
+        "name": "Tomatoes",
+        "quantity": 5,
+        "bought": false
+    },
+    {
+        "name": "Potatoes",
+        "quantity": 3,
+        "bought": true
+    },
+    {
+        "name": "Cheese",
+        "quantity": 1,
+        "bought": false
+    }
+]

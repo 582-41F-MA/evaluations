@@ -1,0 +1,26 @@
+name: Autograding
+on:
+    - push
+    - workflow_dispatch
+    - repository_dispatch
+permissions:
+    checks: write
+    actions: read
+    contents: read
+jobs:
+    run-autograding:
+        runs-on: ubuntu-latest
+        if: github.actor != 'github-classroom[bot]'
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+            - name: Install Deno
+              uses: denoland/setup-deno@v2
+              with:
+                  deno-version: vx.x.x
+            - name: Run linter
+              run: deno lint
+              if: always()
+            - name: Check formatting
+              run: deno fmt --check
+              if: always()
