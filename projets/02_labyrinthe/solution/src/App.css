@@ -1,0 +1,24 @@
+body {
+  font-family: system-ui;
+  font-weight: 1000;
+  font-synthesis: none;
+  background: black;
+  line-height: 1.4;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  padding: 4rem;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 10rem);
+  gap: 2rem;
+}
+
+p {
+  color: white;
+  max-width: 600px;
+  margin: 0 auto;
+}
